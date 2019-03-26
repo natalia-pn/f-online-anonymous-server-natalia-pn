@@ -17,13 +17,17 @@ body {
 
 /* HEADER */
 .page__header {}
-.nav-trigger {}
+.nav-trigger {
+    /* display: none; */
+}
 
 
 
 
 /* MENU */
-.nav {}
+.nav {
+    display: none;
+}
 .nav__items {}
 .nav__item {}
 .nav__link {}
