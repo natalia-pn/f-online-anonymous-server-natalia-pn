@@ -55,7 +55,7 @@ body {
 }
 
 .nav-in {
-    transition: all 5s ease-in-out;
+    transition: all 4s ease-in-out;
     -webkit-transition: all 2s ease-in-out; /** Chrome & Safari **/
     -moz-transition: all 2s ease-in-out; /** Firefox **/
     -o-transition: all 2s ease-in-out; /** Opera **/
@@ -78,13 +78,6 @@ body {
     right: 20px;
 }
 
-.nav:hover {
-    transition: all 5s ease-in-out;
-    transform: translate(280px,0);
-    -webkit-transition: all 2s ease-in-out; /** Chrome & Safari **/
-    -moz-transition: all 2s ease-in-out; /** Firefox **/
-    -o-transition: all 2s ease-in-out; /** Opera **/
-}
 
 .nav__items {
     list-style: none;
