@@ -35,6 +35,12 @@ body {
     border: none;
     border-radius: 5px;
     margin: 20px 20px 0 0;
+    font-size: 0;
+    outline: none;
+}
+
+.nav-trigger:hover {
+    transform: rotate(225deg);   
 }
 
 
@@ -76,8 +82,12 @@ body {
     border-radius: 5px;
     top: 20px;
     right: 20px;
+    font-size: 0;
 }
 
+.nav-close:hover {
+    transform: rotate(220deg);   
+}
 
 .nav__items {
     list-style: none;
@@ -90,6 +100,7 @@ body {
     margin: 0 30px 20px;
     padding: 0;
 }
+
 .nav__item {
     width: 200px;
     text-align: center;
@@ -104,7 +115,11 @@ body {
     color: white;
     text-decoration: none;
 }
-.nav-close {}
+
+.nav__link:hover {
+    color: grey;
+}
+
 
 
 
