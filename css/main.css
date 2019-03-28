@@ -49,10 +49,39 @@ body {
     height: 100vh;
     width: 100vw;
     top: 0;
+    display: flex;
+    justify-content: center;
 }
-.nav__items {}
-.nav__item {}
-.nav__link {}
+
+.nav-close {
+    position: absolute;
+}
+
+.nav__items {
+    list-style: none;
+    font-size: 32px;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 30px;
+    padding: 0;
+}
+.nav__item {
+    width: 200px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.nav__item:last-child {
+    margin: 0;
+}
+
+.nav__link {
+    color: white;
+    text-decoration: none;
+}
 .nav-close {}
 
 
@@ -64,9 +93,11 @@ body {
 .page__main-title {
     margin: 244px 0 0 45px;
     font-family: 'Roboto Slab', serif;
+    font-size: 32px;
     text-transform: uppercase;
     color:white;
     width: 250px;
+   
 }
 
 
