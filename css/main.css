@@ -44,7 +44,8 @@ body {
 .nav {
     /* display: none; */
     position: absolute;
-    background-color: blueviolet;
+    background-color: #402929;
+    opacity: 0.92;
     height: 100vh;
     width: 100vw;
     top: 0;
