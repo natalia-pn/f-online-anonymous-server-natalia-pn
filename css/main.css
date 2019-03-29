@@ -8,19 +8,14 @@ body {
     width: 100vw;
 }
 .page {
-    height: 100vh;
     background-image: linear-gradient(-180deg, rgba(0,0,0,0.00) 0%, rgba(0,0,0,0.35) 50%), url('../images/anonymous-server-background.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    position: relative;
+    /* position: relative; */
     width: 100vw;
     height: 100vh;
 }
-
-
-
-
 
 /* HEADER */
 .page__header {
@@ -33,13 +28,21 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: 25px;
-    height: 50px;
-    width: 50px;
+    height: 45px;
+    width: 45px;
     border: none;
     border-radius: 5px;
     margin: 20px 20px 0 0;
     font-size: 0;
     outline: none;
+}
+
+@media all and (min-width:768px) {
+    .nav-trigger {
+        height: 50px;
+        width: 50px;
+    }
+  
 }
 
 .nav-trigger:hover {
@@ -52,7 +55,7 @@ body {
 /* MENU */
 .nav {
     display: none;
-    position: absolute;
+    /* position: fixed; */
     background-color: #402929;
     opacity: 0.92;
     height: 100vh;
@@ -60,19 +63,22 @@ body {
     top: 0;
     text-align: center;
     right: -400px;
+    transition: all 9s ease-in;
+    -webkit-transition: all 9s ease-in-out; /** Chrome & Safari **/
+    -moz-transition: all 9s ease-in-out; /** Firefox **/
+    -o-transition: all 9s ease-in-out; /** Opera **/
+}
 
+@media all and (min-width:768px) {
+    .nav {
+        right: -800px;
+    }
 }
 
 .nav-in {
-    transition: all 9s ease-in-out;
-    -webkit-transition: all 2s ease-in-out; /** Chrome & Safari **/
-    -moz-transition: all 2s ease-in-out; /** Firefox **/
-    -o-transition: all 2s ease-in-out; /** Opera **/
     right: 0px;
     display: flex;
     justify-content: center;
-
-    
 }
 
 
@@ -141,7 +147,13 @@ body {
     text-transform: uppercase;
     color:white;
     width: 250px;
-   
+}
+
+@media all and (min-width:768px) {
+    .page__main-title {
+        font-size: 60px;
+        margin: 449px 0 286px 61px;
+    }
 }
 
 
@@ -152,6 +164,12 @@ body {
     display: flex;
     justify-content: center; 
     margin-top: 195px;
+}
+
+@media all and (min-width:768px) {
+    .page__footer {
+        margin: 0;
+    }
 }
 
 .page__footer-copy {
@@ -165,4 +183,13 @@ body {
     font-size: 18px;
     color: grey;
     background:rgba(128,128,128,0.5);
+    border-radius: 5px;
+}
+
+@media all and (min-width:768px) {
+    .page__footer-copy {
+        /* margin: 88px 0 0 24px; */
+        width: 666px;
+
+    }
 }
