@@ -37,7 +37,7 @@ body {
     outline: none;
 }
 
-@media all and (min-width:768px) {
+@media all and (min-width:720px) {
     .nav-trigger {
         height: 50px;
         width: 50px;
@@ -58,16 +58,22 @@ body {
     top: 0;
     display: flex;
     justify-content: center;
-    right: -400px;
+    right: -600px;
     transition: all 9s ease-in;
     -webkit-transition: all 9s ease-in-out; /** Chrome & Safari **/
     -moz-transition: all 9s ease-in-out; /** Firefox **/
     -o-transition: all 9s ease-in-out; /** Opera **/
 }
 
-@media all and (min-width:768px) {
+@media all and (min-width:720px) {
     .nav {
-        right: -800px;
+        right: -1200px;
+    }
+}
+
+@media all and (min-width:1440px) {
+    .nav {
+        right: -1900px;
     }
 }
 
@@ -75,7 +81,7 @@ body {
     right: 0px;
 }
 
-@media all and (min-width:768px) {
+@media all and (min-width:720px) {
     .nav-in {
         height: 100vh;   
     }
@@ -97,7 +103,7 @@ body {
     font-size: 0;
 }
 
-@media all and (min-width:768px) {
+@media all and (min-width:720px) {
     .nav-close {
         width: 50px;
         height: 50px;
@@ -120,7 +126,7 @@ body {
     padding: 0;
 }
 
-@media all and (min-width:768px) {
+@media all and (min-width:720px) {
     .nav__items {
         font-size: 60px;
         margin: 0 60px 60px;
@@ -134,7 +140,7 @@ body {
     margin-bottom: 15px;
 }
 
-@media all and (min-width:768px) {
+@media all and (min-width:720px) {
     .nav__item {
         width: 600px;
     }
@@ -164,10 +170,10 @@ body {
     width: 250px;
 }
 
-@media all and (min-width:768px) {
+@media all and (min-width:720px) {
     .page__main-title {
         font-size: 60px;
-        margin: 449px 0 286px 61px;
+        margin: 380px 0 235px 75px;
     }
 }
 
@@ -178,9 +184,9 @@ body {
     margin-top: 195px;
 }
 
-@media all and (min-width:768px) {
+@media all and (min-width:720px) {
     .page__footer {
-        margin: 0;
+        /* margin: 0; */
     }
 }
 
@@ -198,9 +204,8 @@ body {
     border-radius: 5px;
 }
 
-@media all and (min-width:768px) {
+@media all and (min-width:720px) {
     .page__footer-copy {
-        width: 666px;
-
+        width: 580px;
     }
 }
