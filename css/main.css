@@ -9,7 +9,6 @@ body {
 }
 .page {
     position: relative;
-    /* display: none; */
     background-image: linear-gradient(-180deg, rgba(0,0,0,0.00) 0%, rgba(0,0,0,0.35) 50%), url('../images/anonymous-server-background.jpg');
     background-position: center;
     background-repeat: no-repeat;
@@ -43,26 +42,22 @@ body {
         height: 50px;
         width: 50px;
     }
-  
 }
 
 .nav-trigger:hover {
     transform: rotate(225deg);   
 }
 
-
-
-
 /* MENU */
 .nav {
-    /* display: none; */
     position: fixed;
     background-color: #402929;
     opacity: 0.92;
     height: 100vh;
     width: 100vw;
     top: 0;
-    text-align: center;
+    display: flex;
+    justify-content: center;
     right: -400px;
     transition: all 9s ease-in;
     -webkit-transition: all 9s ease-in-out; /** Chrome & Safari **/
@@ -78,8 +73,6 @@ body {
 
 .nav-in {
     right: 0px;
-    display: flex;
-    justify-content: center;
 }
 
 @media all and (min-width:768px) {
@@ -161,12 +154,7 @@ body {
 }
 
 
-
-
-
 /* MAIN */
-.page__main {}
-.page__wrapper {}
 .page__main-title {
     margin: 244px 0 0 45px;
     font-family: 'Roboto Slab', serif;
@@ -182,9 +170,6 @@ body {
         margin: 449px 0 286px 61px;
     }
 }
-
-
-
 
 /* FOOTER */
 .page__footer {
@@ -215,7 +200,6 @@ body {
 
 @media all and (min-width:768px) {
     .page__footer-copy {
-        /* margin: 88px 0 0 24px; */
         width: 666px;
 
     }
