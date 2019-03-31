@@ -162,7 +162,7 @@ body {
 /* MAIN */
 
 .page__main-title {
-    margin: 244px 0 0 45px;
+    margin: 215px 0 0 30px;
     font-family: 'Roboto Slab', serif;
     font-size: 32px;
     text-transform: uppercase;
@@ -210,7 +210,7 @@ body {
     justify-content: center;
     align-items: center;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 18px;
+    font-size: 14px;
     color: grey;
     background:rgba(128,128,128,0.5);
     border-radius: 5px;
@@ -219,6 +219,7 @@ body {
 @media all and (min-width:768px) {
     .page__footer-copy {
         width: 645px;
+        font-size: 18px;
     }
 }
 
