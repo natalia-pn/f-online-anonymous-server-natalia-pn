@@ -137,6 +137,14 @@ body {
     }
 }
 
+@media all and (min-width:1440px) {
+    .nav__items {
+        font-size: 68px;
+        margin: 0 60px 60px;
+        max-width: 990px;
+    }
+}
+
 
 .nav__item {
     width: 200px;
